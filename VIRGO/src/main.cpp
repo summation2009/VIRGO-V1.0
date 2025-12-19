@@ -26,10 +26,10 @@ DHT dht(DHTPIN, DHTTYPE);
 #define INPUT19 19
 
 // ✅ MQTT Config
-const char *mqtt_server = "35.236.157.133"; 
+const char *mqtt_server = "XXXX"; 
 const int mqtt_port = 1883;
-const char *mqtt_user = "TON_TON";
-const char *mqtt_pass = "123456aaff";
+const char *mqtt_user = "XXXX";
+const char *mqtt_pass = "XXXX";
 
 // Dynamic MQTT info
 String mqtt_client_id;
